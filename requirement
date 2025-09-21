@@ -1,0 +1,12 @@
+Install dependencies
+npm install @clerk/nextjs lucide-react
+npx shadcn@latest init
+
+create .env.local in root folder signin/.env.local
+add this in the file
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=get after login for clerk
+CLERK_SECRET_KEY=get after login for clerk
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/auth-success
+NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/auth-success
